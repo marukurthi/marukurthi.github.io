@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marukurthi Jyothi | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3d9d9;
+        }
+        header {
+            background-color:  #FFB6C1;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+        header p {
+            font-size: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #dcb4dd;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #dda2f5;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .skills-list, .projects-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill-item, .project-item {
+            background-color:#fff6e6;
+            box-shadow: 0 0 10px  #B3D9FF;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .skill-item:hover, .project-item:hover {
+            transform: scale(1.05);
+        }
+        .project-item a {
+            display: inline-block;
+            background-color: #f89bca;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .project-item a:hover {
+            background-color: #ecaf9c;
+        }
+        footer {
+            background-color: #e9a9a9;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+        #contact {
+            padding: 50px 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marukurthi Jyothi</h1>
+        <p>Web Developer | Student</p>
+    </header>
+   
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Marukurthi Jyothi, a passionate web developer with a love for creating beautiful and functional websites. I specialize in front-end development and design, aiming to make user-friendly interfaces that are also visually appealing.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">
+                <h3>HTML</h3>
+                <p>Experienced with structuring webpages with semantic HTML.</p>
+            </div>
+            <div class="skill-item">
+                <h3>CSS</h3>
+                <p>Skilled in designing responsive and accessible layouts with CSS.</p>
+            </div>
+            <div class="skill-item">
+                <h3>C</h3>
+                <p>Basic understanding of programming logic with C.</p>
+            </div>
+            <div class="skill-item">
+                <h3>Python</h3>
+                <p>Familiar with Python for scripting and automation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-item">
+                <h3>Project 1</h3>
+                <p>Project description goes here. You can showcase your work with links to live sites or GitHub repositories.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Project 2</h3>
+                <p>Description of your second project. Include key technologies used, challenges faced, and the outcome.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Project 3</h3>
+                <p>Details of your third project, demonstrating your ability and creativity in web development.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="project-item">
+            <h3>Mail ID</h3>
+            <a href="mailto:jyothi.marukurthi@sasi.ac.in">jyothi.marukurthi@sasi.ac.in</a>
+        </div>
+        <div class="project-item">
+            <h3>github</h3>
+            <p><a href="https://github.com/marukurthi">github</a></p>
+        </div>
+        <div class="project-item">
+            <h3>Leetcode</h3>
+            <p><a href="https://leetcode.com/u/jyothi_jyothi/">leetcode</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Marukurthi Jyothi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
