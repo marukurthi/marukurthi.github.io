@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <title>CSS styles</title>
+    <style>
+        h1{
+            color:crimson ;
+            font-size: 30px;
+            text-align: center;
+        }
+        p.internal{
+            color:green;
+            font-size: 24px;
+            text-align: center;
+        }
+    </style>
+      <link rel="stylesheet" href="external.css">
+</head>
+<body>
+    <h1>Inline CSS</h1>
+    <p style="color:blue;font-size: 24px;text-align: center">An inline CSS is used to apply a unique style to a single HTML element.</p>
+    <p style="color:dodgerblue;font-size: 24px;text-align: center">An inline CSS uses the style attribute of an HTML element.</p>
+    <h1>Internal CSS</h1>
+    <p class="internal">An internal CSS is used to define a style for a single HTML page.</p>
+    <p class="internal">An internal CSS is defined in the "head" section of an HTML page, within a "style" element.</p>
+    <h1>External CSS</h1>
+    <p>An external style sheet is used to define the style for many HTML pages.</p>
+    <p>To use an external style sheet,add a link to it in the "head" section of each HTML page.</p>
+    <p>The external style sheet can be written in any text editor. </p>
+    <p>The file must not contain any HTML code, and must be saved with a .css extension.</p>
+</body>
+</html>
+external.css
+body{
+    background-color: rgb(250, 206, 214);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color:goldenrod;
+    text-align:center;
+    font-size: 24px;
+}
